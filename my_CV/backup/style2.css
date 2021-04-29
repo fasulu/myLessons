@@ -1,0 +1,213 @@
+/*@import url("./Cour-CV/fonts/poppins.ttf"); to use imported fonts*/
+
+@font-face {
+  font-family: "Poppins";
+  /* src: url("../../fonts/poppins.ttf"); to use imported fonts using imported method*/
+  src: url("./poppins.ttf");
+}  
+
+
+body {
+  margin: 0;
+}  
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background-color: #0475ba;
+    color: white;
+    
+} 
+
+nav h2 {
+  margin: 0;
+  padding-left: 15px ;
+}
+
+nav ul {
+  display: flex;
+  list-style:none;
+  margin-right: 50px;
+}
+
+nav a {
+  margin-left: 10px;
+  padding: 10px;  
+  color: white;
+  text-decoration: none;
+  align-content: center;
+}
+
+/* navbar links disappears under 600px */
+@media screen and (max-width: 600px) {
+   nav ul li {
+     display: none;
+   }
+}  
+
+/* Profile name and photo lined downwars under 600px */
+@media screen and (max-width: 600px) {
+    div.name {
+      padding: 5px;
+      flex-direction: column;
+      text-align: center;
+
+    }
+  } 
+  
+
+@media screen and (max-width: 600px) {
+    div.rowPresentation, div.row4, div.rowFormations, div.rowPassions {
+      padding: 5px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .alignSectionHeading {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.row7 {
+        flex-direction: row;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    div.row7 {
+        flex-direction: row;
+        text-align: left;
+
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.Column_2, div.Column_4, div.rowExperience {
+      padding: 5px;
+    }
+  }
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Column_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px 20%;
+    background-color:white;
+}
+
+.rowExperience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20%;
+    background-color:white;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+}
+
+.imgName {
+    border-radius: 50%;
+    margin: auto;
+    width: 150px;
+}
+
+.iconImg {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.iconTravel :hover {
+    content: attr(title);
+}
+
+.iconTechnology :hover {
+    content: attr(title);
+}
+
+.iconTwitter :hover {
+    content: attr(title);
+}
+
+.iconLinkedin :hover {
+    content: attr(title);
+}
+
+.iconLinkedin :hover {
+    content: attr(title);
+}
+
+.rowPresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20%;
+    background-color: #0475ba;
+    color: white;
+}
+
+.row4, .rowPassions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20%;
+    background-color:white;
+}
+
+.rowFormations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20%;
+    background-color: #0475ba;
+    color: white;
+}
+
+.Column_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20%;
+    background-color: #0475ba;
+    color: white;
+  }
+
+.color1 {
+  color: #0475ba;
+}
+
+.row7
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #0475ba;
+    color: white;
+}
+
+.row7 li a {
+  color: white;
+}
+
+.noBulletPoint li {
+  text-decoration: none;
+  list-style-type: none;
+}
+

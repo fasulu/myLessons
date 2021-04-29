@@ -1,0 +1,56 @@
+.background-cuizine {
+    /* background: linear-gradient(0deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(../img/header.jpg); */
+    background-image: url('../img/header.jpg');
+    background-position: center;
+}
+
+nav, header {
+    background-color: rgb(0 0 0 / 80%);
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(73 72 72 / 80%);
+}
+
+.navbar h2 a {
+    font-size: 30px;
+}
+
+.header-cuizine-row {
+    height: 400px;
+}
+
+.header-cuizine-row img {
+    width: 80px;
+}
+
+.section-articles > h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.section-articles a {
+    color: #000;
+    text-decoration: none;
+}
+
+.section-articles img {
+    width: 100%;
+}
+
+aside button {
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+aside i.bi, footer i.bi {
+    padding: 5px;
+}

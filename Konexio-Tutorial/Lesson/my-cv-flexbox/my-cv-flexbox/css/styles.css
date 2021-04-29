@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins.ttf')
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.content {
+    width: 800px;
+}
+
+.content-small {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header,
+section {
+    display: flex;    
+    justify-content: center;
+}
+
+header,
+section,
+footer {
+    padding: 40px 5px;
+}
+
+#experiences ul,
+#formations ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Nav */
+
+nav {
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+    padding-left: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Header */
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header-space {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .header-space div {
+    text-align: center;
+}
+
+/* Section */
+
+section .text-year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #formations */
+#formations ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+footer ul {
+    list-style-type: none;
+}
+
+footer i {
+    padding-right: 5px;
+}
+
+/* Blue box */
+
+.blue-box {
+    background-color: #0475ba;
+    color: white;
+}
+
+.blue-box a {
+    color: white;
+}
+
+/* White box */
+
+header h2,
+.white-box h2 {
+    color: #0475ba;
+}
+
+
+
+/* Moins de 991px */
+
+@media (max-width: 991px) {
+
+    nav ul {
+        display: none;
+    }
+
+    header .header-space {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .content h2 {
+        text-align: center;
+    }
+
+    footer .content-small {
+        flex-direction: column;
+    }
+}

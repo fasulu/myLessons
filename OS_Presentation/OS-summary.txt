@@ -1,0 +1,7 @@
+Summary
+Define Operating System: An operating system is a software which acts as an interface between the end user and computer hardware
+Operating systems were first developed in the late 1950s to manage tape storage
+The kernel is the central component of a computer operating systems. The only job performed by the kernel is to the manage the communication between the software and the hardware
+Two most popular kernels are Monolithic and MicroKernels
+Process, Device, File, I/O, Secondary-Storage, Memory management are various functions of an Operating System
+Batch, Multitasking/Time Sharing, Multiprocessing, Real Time, Distributed, Network, Mobile are various types of OS

@@ -1,0 +1,9 @@
+/* Map */
+ .mapouter, .gmap_canvas {
+    max-width: 100%;
+}
+
+.gmap_canvas iframe {
+    height: 100%;
+    width: 100%;
+}

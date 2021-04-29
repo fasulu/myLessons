@@ -1,0 +1,158 @@
+/* General */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins.ttf')
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+header, 
+section, 
+footer {
+    padding: 40px 5px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Blue boxes */
+
+.blue-box {
+    background-color: #0475ba;
+    color: white;
+}
+
+.blue-box a {
+    color: white;
+}
+
+.blue-box time {
+    float: right;
+}
+
+/* White boxes */
+.white-box h2 {
+    color: #0475ba;
+}
+
+.white-box time {
+    float: right;
+}
+
+/* NAV */
+
+nav {
+    height: 72px;
+}
+
+nav h2 {
+    padding: 17px;
+    margin: 0;
+}
+
+nav ul {
+    display: none;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    color: #096cb3;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Experiences */
+
+#experiences ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#experiences ul li {
+    padding: 5px 0px;
+}
+
+/* Formations */
+
+#formations h4 {
+    margin: 5px;
+    font-weight: normal;
+}
+
+/* Passions */
+
+#passions h4 {
+    font-weight: normal;
+}
+
+/* Footer */
+
+footer ul {
+    list-style-type: none;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+@media (min-width: 991px) {
+
+    nav .div-left {
+        float: left;
+    }
+
+    nav .div-left ul {
+        margin-top: 25px;
+        display: block;
+    }
+
+    nav .div-left ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    nav li a {
+        text-decoration: none;
+    }
+
+    .centered-box {
+        width: 800px;
+        margin: auto;
+    }
+
+    header .centered-box {
+        width: 700px;
+    } 
+
+    .titles-left {
+        float: left;
+    }
+
+    .clear-box {
+        clear: both;
+    }
+    
+    section h2 {
+        text-align: left;
+    }
+
+    .ul-left {
+        float: left;
+        margin-right: 200px;
+    }
+
+}

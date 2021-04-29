@@ -1,0 +1,15 @@
+/* Articles */
+
+.section-articles > h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.section-articles a {
+    color: #000;
+    text-decoration: none;
+}
+
+.section-articles img {
+    width: 100%;
+}

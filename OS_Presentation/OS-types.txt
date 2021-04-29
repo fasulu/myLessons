@@ -1,0 +1,10 @@
+Types of Operating System (OS)
+Following are the popular types of Operating System:
+
+Batch Operating System
+Multitasking/Time Sharing OS
+Multiprocessing OS
+Real Time OS
+Distributed OS
+Network OS
+Mobile OS

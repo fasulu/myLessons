@@ -1,0 +1,9 @@
+medium.com
+
+https://www.electronjs.org/
+
+codegrepper.com
+
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=var%20variables%20can%20be%20updated,const%20variables%20are%20not%20initialized.
+
+https://fr.reactjs.org/docs/react-component.html	**** for react class 
